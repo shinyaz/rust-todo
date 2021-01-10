@@ -1,5 +1,5 @@
 [package]
-name = "rust-todo"
+name = "todo"
 version = "0.1.0"
 authors = ["Shinya Tahara <midnight326@gmail.com>"]
 edition = "2018"

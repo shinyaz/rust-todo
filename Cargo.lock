@@ -1403,20 +1403,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust-todo"
-version = "0.1.0"
-dependencies = [
- "actix-rt",
- "actix-web",
- "askama",
- "r2d2",
- "r2d2_sqlite",
- "rusqlite",
- "serde",
- "thiserror",
-]
-
-[[package]]
 name = "rustc-demangle"
 version = "0.1.18"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1732,6 +1718,20 @@ name = "tinyvec_macros"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "cda74da7e1a664f795bb1f8a87ec406fb89a02522cf6e50620d016add6dbbf5c"
+
+[[package]]
+name = "todo"
+version = "0.1.0"
+dependencies = [
+ "actix-rt",
+ "actix-web",
+ "askama",
+ "r2d2",
+ "r2d2_sqlite",
+ "rusqlite",
+ "serde",
+ "thiserror",
+]
 
 [[package]]
 name = "tokio"
